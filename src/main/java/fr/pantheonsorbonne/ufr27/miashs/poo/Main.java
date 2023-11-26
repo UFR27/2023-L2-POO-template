@@ -11,7 +11,7 @@ public class Main {
     public static void main(String ...args) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException{
         ItemsScrapper scrapper  = new ItemsScrapper();
         try{
-            ArrayList<Item> items = scrapper.parseSource(ContentProxy.getFresh());
+            ArrayList<Item> items = scrapper.parseSource(ContentProxy.getCached());
             System.out.println("Les Attributs de chaque Item (" + items.size()+")");
             for(int i=0 ; i<items.size(); i++){
                 System.out.println("Item " + i);
