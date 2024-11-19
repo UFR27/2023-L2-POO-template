@@ -1,0 +1,10 @@
+{
+  "maven.terminal.favorites": [
+    {
+      "command": "test jacoco:prepare-agent",
+      "debug": false
+    }
+  ],
+  "java.configuration.updateBuildConfiguration": "automatic"
+}
+
